@@ -6,5 +6,5 @@
 | Nome | RM |
 |---|---|
 | Fernando dos Santos Motta | rm570046 |
-| Caetano Bona | rm569262 |
-| Joedson | rm573981 |
+| Caetano de Medeiros Bona | rm569262 |
+| Joedson da Silva Souza | rm573981 |
