@@ -11,4 +11,4 @@
 
 ## 🗺️ Fluxograma
 
-Para visualizar o fluxograma do projeto, **baixe o arquivo [`fluxograma.png`](./fluxograma.png)** e abra-o diretamente no seu navegador (a renderização de texto pode não funcionar corretamente ao visualizar pelo GitHub).
+Para visualizar o fluxograma do projeto, **baixe o arquivo [`fluxograma.png`](./fluxograma.png)** e abra-o diretamente no seu navegador (a renderização da imagem pode não funcionar corretamente ao visualizar pelo GitHub).
