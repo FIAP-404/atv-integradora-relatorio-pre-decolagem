@@ -1,6 +1,6 @@
 # 1.1 Organização e Descrição da Telemetria
 
-Este sistema de telemetria monitora os parâmetros críticos de segurança do veículo de lançamento em tempo real. Cada variável possui uma faixa operacional segura baseada em critérios de engenharia aeroespacial para lançamentos de foguetes de propulsão líquida [web:22].
+Este sistema de telemetria monitora os parâmetros críticos de segurança do veículo de lançamento em tempo real. Cada variável possui uma faixa operacional segura baseada em critérios de engenharia aeroespacial para lançamentos de foguetes de propulsão líquida.
 
 ### Variáveis Monitoradas e Faixas Seguras
 
@@ -8,19 +8,19 @@ Este sistema de telemetria monitora os parâmetros críticos de segurança do ve
 *   **Descrição:** Mede a temperatura do ambiente na plataforma de lançamento. Condições extremas de frio ou calor podem danificar os anéis de vedação (O-rings), causar condensação nos tanques criogênicos ou superaquecer componentes externos.
 *   **Unidade de Medida:** Graus Celsius (°C)
 *   **Faixa Segura:** Entre **-150°C e 120°C**
-*   **Justificativa:** Baseado nos critérios climáticos reais que abortam lançamentos fora dessa faixa para proteger a integridade estrutural e evitar falhas [web:20].
+*   **Justificativa:** Baseado nos critérios climáticos reais que abortam lançamentos fora dessa faixa para proteger a integridade estrutural e evitar falhas.
 
 **2. Temperatura Interna (°C)**
 *   **Descrição:** Refere-se à temperatura da aviônica, compartimento de carga útil e cápsula de controle. Essencial para o funcionamento correto dos computadores de bordo, sensores e segurança da tripulação/carga.
 *   **Unidade de Medida:** Graus Celsius (°C)
 *   **Faixa Segura:** Entre **18°C e 24°C**
-*   **Justificativa:** Faixa que garante operação ideal dos sistemas eletrônicos sensíveis e conforto térmico para tripulação/equipamentos. Temperaturas fora dessa faixa podem causar falhas em processadores e sensores [web:42].
+*   **Justificativa:** Faixa que garante operação ideal dos sistemas eletrônicos sensíveis e conforto térmico para tripulação/equipamentos. Temperaturas fora dessa faixa podem causar falhas em processadores e sensores.
 
 **3. Integridade Estrutural (Booleano)**
 *   **Descrição:** Valor booleano que indica se os sensores de casco, chassi e estrutura primária detectaram alguma microfissura, vibração anômala, deformação ou falha nos painéis de revestimento.
 *   **Unidade de Medida:** Binário (0 ou 1)
 *   **Faixa Segura:** Exatamente **1** (onde 1 = Estrutura Íntegra / 0 = Estrutura Comprometida)
-*   **Justificativa:** Qualquer comprometimento estrutural detectado pelos sensores resulta em aborto imediato, pois a integridade do casco é não-negociável para suportar as forças aerodinâmicas do voo [web:22].
+*   **Justificativa:** Qualquer comprometimento estrutural detectado pelos sensores resulta em aborto imediato, pois a integridade do casco é não-negociável para suportar as forças aerodinâmicas do voo.
 
 **4. Nível de Energia (%)**
 *   **Descrição:** Carga percentual das baterias principais que alimentam os sistemas de telemetria, computadores de bordo, sistemas de separação de estágio e aviônica durante o voo até a órbita.
@@ -38,7 +38,7 @@ Este sistema de telemetria monitora os parâmetros críticos de segurança do ve
 *   **Descrição:** Pressão interna do tanque de propelente. A pressurização adequada garante o fluxo constante do combustível para as turbobombas dos motores durante a ignição e fase de potência máxima (Max-Q).
 *   **Unidade de Medida:** Atmosferas (atm)
 *   **Faixa Segura:** Entre **200 atm e 300 atm**
-*   **Justificativa:** Pressão abaixo do mínimo causa cavitação nas bombas e falha dos motores. Pressão acima do máximo pode romper o tanque. Faixa baseada em sistemas de pressurização reais [web:22].
+*   **Justificativa:** Pressão abaixo do mínimo causa cavitação nas bombas e falha dos motores. Pressão acima do máximo pode romper o tanque. Faixa baseada em sistemas de pressurização reais.
 
 **7. Pressão do Tanque Oxidante (atm)**
 *   **Descrição:** Pressão interna do tanque de oxidante. Assim como o combustível, a pressão correta do oxidante é crítica para manter a proporção estequiométrica ideal na câmara de combustão.
